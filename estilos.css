@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+.div-titulo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-titulo h1{
+    font-weight: 300;
+}
+
+.contenedor{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+.contenedor .div-formulario {
+    width: 40%;
+    height: 300px;
+    margin: 20px 20px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+.contenedor .div-formulario h2{
+    margin: 10px;
+    font-weight: 200;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.contenedor .div-formulario form{
+    margin-top: 1rem;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.contenedor .div-formulario form button,
+.contenedor .div-formulario form input{
+   width: 200%;
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px;
+}
+
+
+.contenedor .div-listado {
+    width: 60%;
+    height: calc(100% -50%);
+    margin: 15px 100px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.contenedor .div-listado h2{
+    margin: 2px;
+    height: 300px;
+    font-weight: 100;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+.contenedor .div-listado .div-empleados{
+    font-size: 2rem;
+    width:650px;
+    height:3000px;
+    display: flex;
+    flex-direction: column;
+  
+   align-items:baseline;
+   margin: 15px;
+   padding:  0 30px;
+}
+.contenedor .div-listado  .div-empleados p{
+    font-size: 1em;
+    color: #ddd;
+    margin: 10px 0;
+ }
+
+ hr{
+    width: 100%;
+    height: 1px;
+ }
+
+ .btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+ }
+ .btn-editar{
+    background-color: green;
+ }
+.btn-eliminar {
+    background-color: red;
+}
+
+
